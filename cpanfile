@@ -10,6 +10,7 @@ requires 'DBD::SQLite';
 requires 'DBI';
 requires 'POSIX';
 requires 'Email::Send::SMTP::Gmail';
+requires 'LWP::Protocol::https';
 
 
 
