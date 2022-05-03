@@ -1,0 +1,2 @@
+select case_number, case_title, event, notes, filed, last_updated, filed_by  from filings  where event not in ('APPEARANCE', 'RETURN OF SERVICE', 'RETURN OF ORIGINAL NOTICE', 'ACCEPTANCE OF SERVICE', 'NOTICE OF DISCOVERY RESPONSE', 'RETURN OF SERVICE ON SUBPOENA') AND  ( julianday(substr(last_updated, 7,4 )||"-"||substr(last_updated,1,2)||"-"||substr(last_updated,4,2)) > julianday("now") - 7) and status like 'new';
+
