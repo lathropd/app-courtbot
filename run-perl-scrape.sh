@@ -1,6 +1,5 @@
 #!/bin/bash
-
-source ~/.profile
+echo $COURTBOT_USER
 cd `dirname $0`
 touch "scraper-last-run"
 carton exec -- ./courtbot.pl
