@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build-and-run:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -20,6 +20,12 @@ jobs:
           perl-version: '5.34'
       - run: carton install
       - run: bash run-perl-scrape.sh
+        env: 
+          COURTBOT_USER: $${{ secrets.COUTBOT_USER }}
+          COURTBOT_PASSWORD: $${{ secrets.COUTBOT_PASSWORD }}
+          GMAIL_USER: $${{ secrets.GMAIL_USER }}
+          GMAIL_PWD: $${{ secrets.GMAIL_PWD }}
+          
       # commit
       - uses: EndBug/add-and-commit@v9 
         with:
