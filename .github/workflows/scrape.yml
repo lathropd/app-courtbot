@@ -21,8 +21,8 @@ jobs:
       - run: carton install
       - run: bash run-perl-scrape.sh
         env: 
-          COURTBOT_USER: $${{ secrets.COUTBOT_USER }}
-          COURTBOT_PASSWORD: $${{ secrets.COUTBOT_PASSWORD }}
+          COURTBOT_USER: $${{ secrets.COURTBOT_USER }}
+          COURTBOT_PASSWORD: $${{ secrets.COURTBOT_PASSWORD }}
           GMAIL_USER: $${{ secrets.GMAIL_USER }}
           GMAIL_PWD: $${{ secrets.GMAIL_PWD }}
           
