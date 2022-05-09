@@ -51,9 +51,11 @@ Temporary Items
 /local
 /local/
 local/
-cpanfile.snapshot
+#cpanfile.snapshot
 /local/*
 local/*
+/.carmel/
+
 # Devel::Cover
 cover_db/
 
