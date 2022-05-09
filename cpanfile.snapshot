@@ -1,0 +1,1257 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Archive-Zip-1.68
+    pathname: P/PH/PHRED/Archive-Zip-1.68.tar.gz
+    provides:
+      Archive::Zip 1.68
+      Archive::Zip::Archive 1.68
+      Archive::Zip::BufferedFileHandle 1.68
+      Archive::Zip::DirectoryMember 1.68
+      Archive::Zip::FileMember 1.68
+      Archive::Zip::Member 1.68
+      Archive::Zip::MemberRead 1.68
+      Archive::Zip::MockFileHandle 1.68
+      Archive::Zip::NewFileMember 1.68
+      Archive::Zip::StringMember 1.68
+      Archive::Zip::Tree 1.68
+      Archive::Zip::ZipFileMember 1.68
+    requirements:
+      Compress::Raw::Zlib 2.017
+      Encode 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Find 0
+      File::Path 0
+      File::Spec 0.80
+      File::Temp 0
+      IO::File 0
+      IO::Handle 0
+      IO::Seekable 0
+      Time::Local 0
+      perl 5.006
+  Authen-SASL-2.16
+    pathname: G/GB/GBARR/Authen-SASL-2.16.tar.gz
+    provides:
+      Authen::SASL 2.16
+      Authen::SASL::CRAM_MD5 2.14
+      Authen::SASL::EXTERNAL 2.14
+      Authen::SASL::Perl 2.14
+      Authen::SASL::Perl::ANONYMOUS 2.14
+      Authen::SASL::Perl::CRAM_MD5 2.14
+      Authen::SASL::Perl::DIGEST_MD5 2.14
+      Authen::SASL::Perl::EXTERNAL 2.14
+      Authen::SASL::Perl::GSSAPI 0.05
+      Authen::SASL::Perl::LOGIN 2.14
+      Authen::SASL::Perl::Layer 2.14
+      Authen::SASL::Perl::PLAIN 2.14
+    requirements:
+      Digest::HMAC_MD5 0
+      Digest::MD5 0
+      ExtUtils::MakeMaker 6.42
+      Test::More 0
+      perl 5.005
+  Clone-0.45
+    pathname: A/AT/ATOOMIC/Clone-0.45.tar.gz
+    provides:
+      Clone 0.45
+    requirements:
+      ExtUtils::MakeMaker 0
+  Crypt-RC4-2.02
+    pathname: S/SI/SIFUKURT/Crypt-RC4-2.02.tar.gz
+    provides:
+      Crypt::RC4 2.02
+    requirements:
+      ExtUtils::MakeMaker 0
+  CryptX-0.076
+    pathname: M/MI/MIK/CryptX-0.076.tar.gz
+    provides:
+      Crypt::AuthEnc 0.076
+      Crypt::AuthEnc::CCM 0.076
+      Crypt::AuthEnc::ChaCha20Poly1305 0.076
+      Crypt::AuthEnc::EAX 0.076
+      Crypt::AuthEnc::GCM 0.076
+      Crypt::AuthEnc::OCB 0.076
+      Crypt::Checksum 0.076
+      Crypt::Checksum::Adler32 0.076
+      Crypt::Checksum::CRC32 0.076
+      Crypt::Cipher 0.076
+      Crypt::Cipher::AES 0.076
+      Crypt::Cipher::Anubis 0.076
+      Crypt::Cipher::Blowfish 0.076
+      Crypt::Cipher::CAST5 0.076
+      Crypt::Cipher::Camellia 0.076
+      Crypt::Cipher::DES 0.076
+      Crypt::Cipher::DES_EDE 0.076
+      Crypt::Cipher::IDEA 0.076
+      Crypt::Cipher::KASUMI 0.076
+      Crypt::Cipher::Khazad 0.076
+      Crypt::Cipher::MULTI2 0.076
+      Crypt::Cipher::Noekeon 0.076
+      Crypt::Cipher::RC2 0.076
+      Crypt::Cipher::RC5 0.076
+      Crypt::Cipher::RC6 0.076
+      Crypt::Cipher::SAFERP 0.076
+      Crypt::Cipher::SAFER_K128 0.076
+      Crypt::Cipher::SAFER_K64 0.076
+      Crypt::Cipher::SAFER_SK128 0.076
+      Crypt::Cipher::SAFER_SK64 0.076
+      Crypt::Cipher::SEED 0.076
+      Crypt::Cipher::Serpent 0.076
+      Crypt::Cipher::Skipjack 0.076
+      Crypt::Cipher::Twofish 0.076
+      Crypt::Cipher::XTEA 0.076
+      Crypt::Digest 0.076
+      Crypt::Digest::BLAKE2b_160 0.076
+      Crypt::Digest::BLAKE2b_256 0.076
+      Crypt::Digest::BLAKE2b_384 0.076
+      Crypt::Digest::BLAKE2b_512 0.076
+      Crypt::Digest::BLAKE2s_128 0.076
+      Crypt::Digest::BLAKE2s_160 0.076
+      Crypt::Digest::BLAKE2s_224 0.076
+      Crypt::Digest::BLAKE2s_256 0.076
+      Crypt::Digest::CHAES 0.076
+      Crypt::Digest::Keccak224 0.076
+      Crypt::Digest::Keccak256 0.076
+      Crypt::Digest::Keccak384 0.076
+      Crypt::Digest::Keccak512 0.076
+      Crypt::Digest::MD2 0.076
+      Crypt::Digest::MD4 0.076
+      Crypt::Digest::MD5 0.076
+      Crypt::Digest::RIPEMD128 0.076
+      Crypt::Digest::RIPEMD160 0.076
+      Crypt::Digest::RIPEMD256 0.076
+      Crypt::Digest::RIPEMD320 0.076
+      Crypt::Digest::SHA1 0.076
+      Crypt::Digest::SHA224 0.076
+      Crypt::Digest::SHA256 0.076
+      Crypt::Digest::SHA384 0.076
+      Crypt::Digest::SHA3_224 0.076
+      Crypt::Digest::SHA3_256 0.076
+      Crypt::Digest::SHA3_384 0.076
+      Crypt::Digest::SHA3_512 0.076
+      Crypt::Digest::SHA512 0.076
+      Crypt::Digest::SHA512_224 0.076
+      Crypt::Digest::SHA512_256 0.076
+      Crypt::Digest::SHAKE 0.076
+      Crypt::Digest::Tiger192 0.076
+      Crypt::Digest::Whirlpool 0.076
+      Crypt::KeyDerivation 0.076
+      Crypt::Mac 0.076
+      Crypt::Mac::BLAKE2b 0.076
+      Crypt::Mac::BLAKE2s 0.076
+      Crypt::Mac::F9 0.076
+      Crypt::Mac::HMAC 0.076
+      Crypt::Mac::OMAC 0.076
+      Crypt::Mac::PMAC 0.076
+      Crypt::Mac::Pelican 0.076
+      Crypt::Mac::Poly1305 0.076
+      Crypt::Mac::XCBC 0.076
+      Crypt::Misc 0.076
+      Crypt::Mode 0.076
+      Crypt::Mode::CBC 0.076
+      Crypt::Mode::CFB 0.076
+      Crypt::Mode::CTR 0.076
+      Crypt::Mode::ECB 0.076
+      Crypt::Mode::OFB 0.076
+      Crypt::PK 0.076
+      Crypt::PK::DH 0.076
+      Crypt::PK::DSA 0.076
+      Crypt::PK::ECC 0.076
+      Crypt::PK::Ed25519 0.076
+      Crypt::PK::RSA 0.076
+      Crypt::PK::X25519 0.076
+      Crypt::PRNG 0.076
+      Crypt::PRNG::ChaCha20 0.076
+      Crypt::PRNG::Fortuna 0.076
+      Crypt::PRNG::RC4 0.076
+      Crypt::PRNG::Sober128 0.076
+      Crypt::PRNG::Yarrow 0.076
+      Crypt::Stream::ChaCha 0.076
+      Crypt::Stream::RC4 0.076
+      Crypt::Stream::Rabbit 0.076
+      Crypt::Stream::Salsa20 0.076
+      Crypt::Stream::Sober128 0.076
+      Crypt::Stream::Sosemanuk 0.076
+      CryptX 0.076
+      Math::BigInt::LTM 0.076
+    requirements:
+      ExtUtils::MakeMaker 0
+      Math::BigInt 0
+      perl 5.006
+  DBD-SQLite-1.70
+    pathname: I/IS/ISHIGAKI/DBD-SQLite-1.70.tar.gz
+    provides:
+      DBD::SQLite 1.70
+      DBD::SQLite::Constants undef
+      DBD::SQLite::GetInfo undef
+      DBD::SQLite::VirtualTable 1.70
+      DBD::SQLite::VirtualTable::Cursor 1.70
+      DBD::SQLite::VirtualTable::FileContent undef
+      DBD::SQLite::VirtualTable::FileContent::Cursor undef
+      DBD::SQLite::VirtualTable::PerlData undef
+      DBD::SQLite::VirtualTable::PerlData::Cursor undef
+    requirements:
+      DBI 1.57
+      ExtUtils::MakeMaker 0
+      File::Spec 0.82
+      Test::More 0.88
+      Tie::Hash 0
+      perl 5.006
+  DBI-1.643
+    pathname: T/TI/TIMB/DBI-1.643.tar.gz
+    provides:
+      Bundle::DBI 12.008696
+      DBD::DBM 0.08
+      DBD::DBM::Statement 0.08
+      DBD::DBM::Table 0.08
+      DBD::DBM::db 0.08
+      DBD::DBM::dr 0.08
+      DBD::DBM::st 0.08
+      DBD::ExampleP 12.014311
+      DBD::ExampleP::db 12.014311
+      DBD::ExampleP::dr 12.014311
+      DBD::ExampleP::st 12.014311
+      DBD::File 0.44
+      DBD::File::DataSource::File 0.44
+      DBD::File::DataSource::Stream 0.44
+      DBD::File::Statement 0.44
+      DBD::File::Table 0.44
+      DBD::File::TableSource::FileSystem 0.44
+      DBD::File::db 0.44
+      DBD::File::dr 0.44
+      DBD::File::st 0.44
+      DBD::Gofer 0.015327
+      DBD::Gofer::Policy::Base 0.010088
+      DBD::Gofer::Policy::classic 0.010088
+      DBD::Gofer::Policy::pedantic 0.010088
+      DBD::Gofer::Policy::rush 0.010088
+      DBD::Gofer::Transport::Base 0.014121
+      DBD::Gofer::Transport::corostream undef
+      DBD::Gofer::Transport::null 0.010088
+      DBD::Gofer::Transport::pipeone 0.010088
+      DBD::Gofer::Transport::stream 0.014599
+      DBD::Gofer::db 0.015327
+      DBD::Gofer::dr 0.015327
+      DBD::Gofer::st 0.015327
+      DBD::Mem 0.001
+      DBD::Mem::DataSource 0.001
+      DBD::Mem::Statement 0.001
+      DBD::Mem::Table 0.001
+      DBD::Mem::db 0.001
+      DBD::Mem::dr 0.001
+      DBD::Mem::st 0.001
+      DBD::NullP 12.014715
+      DBD::NullP::db 12.014715
+      DBD::NullP::dr 12.014715
+      DBD::NullP::st 12.014715
+      DBD::Proxy 0.2004
+      DBD::Proxy::RPC::PlClient 0.2004
+      DBD::Proxy::db 0.2004
+      DBD::Proxy::dr 0.2004
+      DBD::Proxy::st 0.2004
+      DBD::Sponge 12.010003
+      DBD::Sponge::db 12.010003
+      DBD::Sponge::dr 12.010003
+      DBD::Sponge::st 12.010003
+      DBDI 12.015129
+      DBI 1.643
+      DBI::Const::GetInfo::ANSI 2.008697
+      DBI::Const::GetInfo::ODBC 2.011374
+      DBI::Const::GetInfoReturn 2.008697
+      DBI::Const::GetInfoType 2.008697
+      DBI::DBD 12.015129
+      DBI::DBD::Metadata 2.014214
+      DBI::DBD::SqlEngine 0.06
+      DBI::DBD::SqlEngine::DataSource 0.06
+      DBI::DBD::SqlEngine::Statement 0.06
+      DBI::DBD::SqlEngine::Table 0.06
+      DBI::DBD::SqlEngine::TableSource 0.06
+      DBI::DBD::SqlEngine::TieMeta 0.06
+      DBI::DBD::SqlEngine::TieTables 0.06
+      DBI::DBD::SqlEngine::db 0.06
+      DBI::DBD::SqlEngine::dr 0.06
+      DBI::DBD::SqlEngine::st 0.06
+      DBI::Gofer::Execute 0.014283
+      DBI::Gofer::Request 0.012537
+      DBI::Gofer::Response 0.011566
+      DBI::Gofer::Serializer::Base 0.009950
+      DBI::Gofer::Serializer::DataDumper 0.009950
+      DBI::Gofer::Serializer::Storable 0.015586
+      DBI::Gofer::Transport::Base 0.012537
+      DBI::Gofer::Transport::pipeone 0.012537
+      DBI::Gofer::Transport::stream 0.012537
+      DBI::Profile 2.015065
+      DBI::ProfileData 2.010008
+      DBI::ProfileDumper 2.015325
+      DBI::ProfileDumper::Apache 2.014121
+      DBI::ProfileSubs 0.009396
+      DBI::ProxyServer 0.3005
+      DBI::ProxyServer::db 0.3005
+      DBI::ProxyServer::dr 0.3005
+      DBI::ProxyServer::st 0.3005
+      DBI::SQL::Nano 1.015544
+      DBI::SQL::Nano::Statement_ 1.015544
+      DBI::SQL::Nano::Table_ 1.015544
+      DBI::Util::CacheMemory 0.010315
+      DBI::Util::_accessor 0.009479
+      DBI::common 1.643
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Test::Simple 0.90
+      perl 5.008001
+  Digest-HMAC-1.04
+    pathname: A/AR/ARODLAND/Digest-HMAC-1.04.tar.gz
+    provides:
+      Digest::HMAC 1.04
+      Digest::HMAC_MD5 1.04
+      Digest::HMAC_SHA1 1.04
+    requirements:
+      Digest::MD5 2
+      Digest::SHA 1
+      ExtUtils::MakeMaker 0
+      perl 5.004
+  Digest-Perl-MD5-1.9
+    pathname: D/DE/DELTA/Digest-Perl-MD5-1.9.tar.gz
+    provides:
+      Digest::Perl::MD5 1.9
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 0
+  Email-Date-Format-1.005
+    pathname: R/RJ/RJBS/Email-Date-Format-1.005.tar.gz
+    provides:
+      Email::Date::Format 1.005
+    requirements:
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      Time::Local 0
+      strict 0
+      warnings 0
+  Email-Send-SMTP-Gmail-1.35
+    pathname: P/PE/PECO/Email-Send-SMTP-Gmail-1.35.tar.gz
+    provides:
+      Email::Send::SMTP::Gmail 1.35
+    requirements:
+      Authen::SASL 0
+      Email::Date::Format 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      LWP::MediaTypes 0
+      MIME::Base64 0
+      Net::SMTP 3.1
+      Net::SMTP_auth 0
+  Encode-Locale-1.05
+    pathname: G/GA/GAAS/Encode-Locale-1.05.tar.gz
+    provides:
+      Encode::Locale 1.05
+    requirements:
+      Encode 2
+      Encode::Alias 0
+      ExtUtils::MakeMaker 0
+      perl 5.008
+  Exporter-Tiny-1.002002
+    pathname: T/TO/TOBYINK/Exporter-Tiny-1.002002.tar.gz
+    provides:
+      Exporter::Shiny 1.002002
+      Exporter::Tiny 1.002002
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      perl 5.006001
+  File-Listing-6.15
+    pathname: P/PL/PLICEASE/File-Listing-6.15.tar.gz
+    provides:
+      File::Listing 6.15
+      File::Listing::apache 6.15
+      File::Listing::dosftp 6.15
+      File::Listing::netware 6.15
+      File::Listing::unix 6.15
+      File::Listing::vms 6.15
+    requirements:
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      HTTP::Date 0
+      perl 5.006
+  Graphics-ColorUtils-0.17
+    pathname: J/JA/JANERT/Graphics-ColorUtils-0.17.tar.gz
+    provides:
+      Graphics::ColorUtils 0.17
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+  HTML-Element-Extended-1.18
+    pathname: M/MS/MSISK/HTML-Element-Extended-1.18.tar.gz
+    provides:
+      HTML::Element::Extended undef
+      HTML::ElementGlob 1.18
+      HTML::ElementRaw 1.18
+      HTML::ElementSuper 1.18
+      HTML::ElementSuper::ContentWatchdog 1.18
+      HTML::ElementTable 1.18
+      HTML::ElementTable::DataElement 1.18
+      HTML::ElementTable::Element 1.18
+      HTML::ElementTable::HeaderElement 1.18
+      HTML::ElementTable::RowElement 1.18
+      HTML::ElementTable::RowGlob 1.18
+    requirements:
+      Data::Dumper 0
+      ExtUtils::MakeMaker 0
+      HTML::Element 3.01
+  HTML-Form-6.07
+    pathname: O/OA/OALDERS/HTML-Form-6.07.tar.gz
+    provides:
+      HTML::Form 6.07
+      HTML::Form::FileInput 6.07
+      HTML::Form::IgnoreInput 6.07
+      HTML::Form::ImageInput 6.07
+      HTML::Form::Input 6.07
+      HTML::Form::KeygenInput 6.07
+      HTML::Form::ListInput 6.07
+      HTML::Form::SubmitInput 6.07
+      HTML::Form::TextInput 6.07
+    requirements:
+      Carp 0
+      Encode 2
+      ExtUtils::MakeMaker 0
+      HTML::TokeParser 0
+      HTTP::Request 6
+      HTTP::Request::Common 6.03
+      URI 1.10
+      perl 5.008001
+      strict 0
+      vars 0
+  HTML-Parser-3.78
+    pathname: O/OA/OALDERS/HTML-Parser-3.78.tar.gz
+    provides:
+      HTML::Entities 3.78
+      HTML::Filter 3.78
+      HTML::HeadParser 3.78
+      HTML::LinkExtor 3.78
+      HTML::Parser 3.78
+      HTML::PullParser 3.78
+      HTML::TokeParser 3.78
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.52
+      HTML::Tagset 0
+      HTTP::Headers 0
+      IO::File 0
+      URI 0
+      URI::URL 0
+      XSLoader 0
+      strict 0
+  HTML-TableExtract-2.15
+    pathname: M/MS/MSISK/HTML-TableExtract-2.15.tar.gz
+    provides:
+      HTML::TableExtract 2.15
+      HTML::TableExtract::Rasterize 2.15
+      HTML::TableExtract::StripHTML 2.15
+      HTML::TableExtract::Table 2.15
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTML::ElementTable 1.16
+      HTML::Parser 0
+  HTML-Tagset-3.20
+    pathname: P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
+    provides:
+      HTML::Tagset 3.20
+    requirements:
+      ExtUtils::MakeMaker 0
+  HTML-Tree-5.07
+    pathname: K/KE/KENTNL/HTML-Tree-5.07.tar.gz
+    provides:
+      HTML::AsSubs 5.07
+      HTML::Element 5.07
+      HTML::Element::traverse 5.07
+      HTML::Parse 5.07
+      HTML::Tree 5.07
+      HTML::TreeBuilder 5.07
+    requirements:
+      Carp 0
+      Encode 0
+      Exporter 0
+      HTML::Entities 0
+      HTML::Parser 3.46
+      HTML::Tagset 3.02
+      Module::Build 0.2808
+      Scalar::Util 0
+      Test::Fatal 0
+      Test::More 0
+      base 0
+      integer 0
+      perl 5.008
+  HTTP-Cookies-6.10
+    pathname: O/OA/OALDERS/HTTP-Cookies-6.10.tar.gz
+    provides:
+      HTTP::Cookies 6.10
+      HTTP::Cookies::Microsoft 6.10
+      HTTP::Cookies::Netscape 6.10
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      HTTP::Date 6
+      HTTP::Headers::Util 6
+      HTTP::Request 0
+      locale 0
+      perl 5.008001
+      strict 0
+  HTTP-Date-6.05
+    pathname: O/OA/OALDERS/HTTP-Date-6.05.tar.gz
+    provides:
+      HTTP::Date 6.05
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Time::Local 1.28
+      Time::Zone 0
+      perl 5.006002
+      strict 0
+  HTTP-Message-6.36
+    pathname: O/OA/OALDERS/HTTP-Message-6.36.tar.gz
+    provides:
+      HTTP::Config 6.36
+      HTTP::Headers 6.36
+      HTTP::Headers::Auth 6.36
+      HTTP::Headers::ETag 6.36
+      HTTP::Headers::Util 6.36
+      HTTP::Message 6.36
+      HTTP::Request 6.36
+      HTTP::Request::Common 6.36
+      HTTP::Response 6.36
+      HTTP::Status 6.36
+    requirements:
+      Carp 0
+      Compress::Raw::Zlib 0
+      Encode 3.01
+      Encode::Locale 1
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      HTTP::Date 6
+      IO::Compress::Bzip2 2.021
+      IO::Compress::Deflate 0
+      IO::Compress::Gzip 0
+      IO::HTML 0
+      IO::Uncompress::Bunzip2 2.021
+      IO::Uncompress::Gunzip 0
+      IO::Uncompress::Inflate 0
+      IO::Uncompress::RawInflate 0
+      LWP::MediaTypes 6
+      MIME::Base64 2.1
+      MIME::QuotedPrint 0
+      URI 1.10
+      base 0
+      perl 5.008001
+      strict 0
+      warnings 0
+  HTTP-Negotiate-6.01
+    pathname: G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+    provides:
+      HTTP::Negotiate 6.01
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTTP::Headers 6
+      perl 5.008001
+  IO-HTML-1.004
+    pathname: C/CJ/CJM/IO-HTML-1.004.tar.gz
+    provides:
+      IO::HTML 1.004
+    requirements:
+      Carp 0
+      Encode 2.10
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      perl 5.008
+  IO-Socket-SSL-2.074
+    pathname: S/SU/SULLR/IO-Socket-SSL-2.074.tar.gz
+    provides:
+      IO::Socket::SSL 2.074
+      IO::Socket::SSL::Intercept 2.056
+      IO::Socket::SSL::OCSP_Cache 2.074
+      IO::Socket::SSL::OCSP_Resolver 2.074
+      IO::Socket::SSL::PublicSuffix undef
+      IO::Socket::SSL::SSL_Context 2.074
+      IO::Socket::SSL::SSL_HANDLE 2.074
+      IO::Socket::SSL::Session_Cache 2.074
+      IO::Socket::SSL::Utils 2.015
+    requirements:
+      ExtUtils::MakeMaker 0
+      Mozilla::CA 0
+      Net::SSLeay 1.46
+      Scalar::Util 0
+  IO-Stringy-2.113
+    pathname: C/CA/CAPOEIRAB/IO-Stringy-2.113.tar.gz
+    provides:
+      IO::AtomicFile 2.113
+      IO::InnerFile 2.113
+      IO::Lines 2.113
+      IO::Scalar 2.113
+      IO::ScalarArray 2.113
+      IO::Stringy 2.113
+      IO::Wrap 2.113
+      IO::WrapTie 2.113
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      FileHandle 0
+      IO::File 0
+      IO::Handle 0
+      Symbol 0
+      overload 0
+      parent 0
+      strict 0
+      warnings 0
+  LWP-MediaTypes-6.04
+    pathname: O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz
+    provides:
+      LWP::MediaTypes 6.04
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      Scalar::Util 0
+      perl 5.006002
+      strict 0
+  LWP-Protocol-https-6.10
+    pathname: O/OA/OALDERS/LWP-Protocol-https-6.10.tar.gz
+    provides:
+      LWP::Protocol::https 6.10
+      LWP::Protocol::https::Socket 6.10
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Socket::SSL 1.54
+      LWP::Protocol::http 0
+      LWP::UserAgent 6.06
+      Mozilla::CA 20180117
+      Net::HTTPS 6
+      base 0
+      perl 5.008001
+      strict 0
+  List-MoreUtils-0.430
+    pathname: R/RE/REHSACK/List-MoreUtils-0.430.tar.gz
+    provides:
+      List::MoreUtils 0.430
+      List::MoreUtils::PP 0.430
+    requirements:
+      Exporter::Tiny 0.038
+      ExtUtils::MakeMaker 0
+      List::MoreUtils::XS 0.430
+  List-MoreUtils-XS-0.430
+    pathname: R/RE/REHSACK/List-MoreUtils-XS-0.430.tar.gz
+    provides:
+      List::MoreUtils::XS 0.430
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Path 0
+      File::Spec 0
+      IPC::Cmd 0
+      XSLoader 0.22
+      base 0
+  Modern-Perl-1.20200211
+    pathname: C/CH/CHROMATIC/Modern-Perl-1.20200211.tar.gz
+    provides:
+      Modern::Perl 1.20200211
+      odern::Perl 1.20200211
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::File 0
+      IO::Handle 0
+      feature 0
+      mro 0
+      perl 5.010
+      strict 0
+      warnings 0
+  Module-Build-0.4231
+    pathname: L/LE/LEONT/Module-Build-0.4231.tar.gz
+    provides:
+      Module::Build 0.4231
+      Module::Build::Base 0.4231
+      Module::Build::Compat 0.4231
+      Module::Build::Config 0.4231
+      Module::Build::Cookbook 0.4231
+      Module::Build::Dumper 0.4231
+      Module::Build::Notes 0.4231
+      Module::Build::PPMMaker 0.4231
+      Module::Build::Platform::Default 0.4231
+      Module::Build::Platform::MacOS 0.4231
+      Module::Build::Platform::Unix 0.4231
+      Module::Build::Platform::VMS 0.4231
+      Module::Build::Platform::VOS 0.4231
+      Module::Build::Platform::Windows 0.4231
+      Module::Build::Platform::aix 0.4231
+      Module::Build::Platform::cygwin 0.4231
+      Module::Build::Platform::darwin 0.4231
+      Module::Build::Platform::os2 0.4231
+      Module::Build::PodParser 0.4231
+    requirements:
+      CPAN::Meta 2.142060
+      Cwd 0
+      Data::Dumper 0
+      ExtUtils::CBuilder 0.27
+      ExtUtils::Install 0
+      ExtUtils::Manifest 0
+      ExtUtils::Mkbootstrap 0
+      ExtUtils::ParseXS 2.21
+      File::Basename 0
+      File::Compare 0
+      File::Copy 0
+      File::Find 0
+      File::Path 0
+      File::Spec 0.82
+      Getopt::Long 0
+      Module::Metadata 1.000002
+      Perl::OSType 1
+      Pod::Man 2.17
+      TAP::Harness 3.29
+      Text::Abbrev 0
+      Text::ParseWords 0
+      perl 5.006001
+      version 0.87
+  Mozilla-CA-20211001
+    pathname: A/AB/ABH/Mozilla-CA-20211001.tar.gz
+    provides:
+      Mozilla::CA 20211001
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.006
+  Net-HTTP-6.22
+    pathname: O/OA/OALDERS/Net-HTTP-6.22.tar.gz
+    provides:
+      Net::HTTP 6.22
+      Net::HTTP::Methods 6.22
+      Net::HTTP::NB 6.22
+      Net::HTTPS 6.22
+    requirements:
+      Carp 0
+      Compress::Raw::Zlib 0
+      ExtUtils::MakeMaker 0
+      IO::Socket::INET 0
+      IO::Uncompress::Gunzip 0
+      URI 0
+      base 0
+      perl 5.006002
+      strict 0
+      warnings 0
+  Net-SMTP_auth-0.08
+    pathname: A/AP/APLEINER/Net-SMTP_auth-0.08.tar.gz
+    provides:
+      Net::SMTP_auth 0.08
+    requirements:
+      Authen::SASL 2.03
+      Digest::HMAC_MD5 1
+      ExtUtils::MakeMaker 0
+      MIME::Base64 2
+      Net::SMTP 2.26
+  Net-SSLeay-1.92
+    pathname: C/CH/CHRISN/Net-SSLeay-1.92.tar.gz
+    provides:
+      Net::SSLeay 1.92
+      Net::SSLeay::Handle 1.92
+    requirements:
+      English 0
+      ExtUtils::MakeMaker 0
+      File::Spec::Functions 0
+      MIME::Base64 0
+      Text::Wrap 0
+      constant 0
+      perl 5.008001
+  Nice-Try-v1.2.0
+    pathname: J/JD/JDEGUEST/Nice-Try-v1.2.0.tar.gz
+    provides:
+      Nice::Try 1.002000
+    requirements:
+      Exporter 5.73
+      ExtUtils::MakeMaker 0
+      Filter::Util::Call 1.59
+      List::Util 1.33
+      PPI 1.270
+      Scalar::Util 1.50
+      Want 0.29
+      perl 5.016000
+      strict 0
+      warnings 0
+  OLE-Storage_Lite-0.20
+    pathname: J/JM/JMCNAMARA/OLE-Storage_Lite-0.20.tar.gz
+    provides:
+      OLE::Storage_Lite 0.20
+      OLE::Storage_Lite::PPS 0.20
+      OLE::Storage_Lite::PPS::Dir 0.20
+      OLE::Storage_Lite::PPS::File 0.20
+      OLE::Storage_Lite::PPS::Root 0.20
+    requirements:
+      ExtUtils::MakeMaker 0
+  PPI-1.274
+    pathname: O/OA/OALDERS/PPI-1.274.tar.gz
+    provides:
+      PPI 1.274
+      PPI::Cache 1.274
+      PPI::Document 1.274
+      PPI::Document::File 1.274
+      PPI::Document::Fragment 1.274
+      PPI::Document::Normalized 1.274
+      PPI::Dumper 1.274
+      PPI::Element 1.274
+      PPI::Exception 1.274
+      PPI::Exception::ParserRejection 1.274
+      PPI::Find 1.274
+      PPI::Lexer 1.274
+      PPI::Node 1.274
+      PPI::Normal 1.274
+      PPI::Normal::Standard 1.274
+      PPI::Singletons 1.274
+      PPI::Statement 1.274
+      PPI::Statement::Break 1.274
+      PPI::Statement::Compound 1.274
+      PPI::Statement::Data 1.274
+      PPI::Statement::End 1.274
+      PPI::Statement::Expression 1.274
+      PPI::Statement::Given 1.274
+      PPI::Statement::Include 1.274
+      PPI::Statement::Include::Perl6 1.274
+      PPI::Statement::Null 1.274
+      PPI::Statement::Package 1.274
+      PPI::Statement::Scheduled 1.274
+      PPI::Statement::Sub 1.274
+      PPI::Statement::Unknown 1.274
+      PPI::Statement::UnmatchedBrace 1.274
+      PPI::Statement::Variable 1.274
+      PPI::Statement::When 1.274
+      PPI::Structure 1.274
+      PPI::Structure::Block 1.274
+      PPI::Structure::Condition 1.274
+      PPI::Structure::Constructor 1.274
+      PPI::Structure::For 1.274
+      PPI::Structure::Given 1.274
+      PPI::Structure::List 1.274
+      PPI::Structure::Subscript 1.274
+      PPI::Structure::Unknown 1.274
+      PPI::Structure::When 1.274
+      PPI::Token 1.274
+      PPI::Token::ArrayIndex 1.274
+      PPI::Token::Attribute 1.274
+      PPI::Token::BOM 1.274
+      PPI::Token::Cast 1.274
+      PPI::Token::Comment 1.274
+      PPI::Token::DashedWord 1.274
+      PPI::Token::Data 1.274
+      PPI::Token::End 1.274
+      PPI::Token::HereDoc 1.274
+      PPI::Token::Label 1.274
+      PPI::Token::Magic 1.274
+      PPI::Token::Number 1.274
+      PPI::Token::Number::Binary 1.274
+      PPI::Token::Number::Exp 1.274
+      PPI::Token::Number::Float 1.274
+      PPI::Token::Number::Hex 1.274
+      PPI::Token::Number::Octal 1.274
+      PPI::Token::Number::Version 1.274
+      PPI::Token::Operator 1.274
+      PPI::Token::Pod 1.274
+      PPI::Token::Prototype 1.274
+      PPI::Token::Quote 1.274
+      PPI::Token::Quote::Double 1.274
+      PPI::Token::Quote::Interpolate 1.274
+      PPI::Token::Quote::Literal 1.274
+      PPI::Token::Quote::Single 1.274
+      PPI::Token::QuoteLike 1.274
+      PPI::Token::QuoteLike::Backtick 1.274
+      PPI::Token::QuoteLike::Command 1.274
+      PPI::Token::QuoteLike::Readline 1.274
+      PPI::Token::QuoteLike::Regexp 1.274
+      PPI::Token::QuoteLike::Words 1.274
+      PPI::Token::Regexp 1.274
+      PPI::Token::Regexp::Match 1.274
+      PPI::Token::Regexp::Substitute 1.274
+      PPI::Token::Regexp::Transliterate 1.274
+      PPI::Token::Separator 1.274
+      PPI::Token::Structure 1.274
+      PPI::Token::Symbol 1.274
+      PPI::Token::Unknown 1.274
+      PPI::Token::Whitespace 1.274
+      PPI::Token::Word 1.274
+      PPI::Tokenizer 1.274
+      PPI::Transform 1.274
+      PPI::Transform::UpdateCopyright 1.274
+      PPI::Util 1.274
+      PPI::XSAccessor 1.274
+    requirements:
+      Carp 0
+      Clone 0.30
+      Digest::MD5 2.35
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Path 0
+      File::Spec 0.84
+      List::Util 1.33
+      Params::Util 1.00
+      Scalar::Util 0
+      Storable 2.17
+      Task::Weaken 0
+      constant 0
+      if 0
+      overload 0
+      perl 5.006
+      strict 0
+  Params-Util-1.102
+    pathname: R/RE/REHSACK/Params-Util-1.102.tar.gz
+    provides:
+      Params::Util 1.102
+      Params::Util::PP 1.102
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Path 0
+      File::Spec 0
+      IPC::Cmd 0
+      Scalar::Util 1.18
+      XSLoader 0.22
+      parent 0
+  Spreadsheet-ParseExcel-0.65
+    pathname: D/DO/DOUGW/Spreadsheet-ParseExcel-0.65.tar.gz
+    provides:
+      Spreadsheet::ParseExcel 0.65
+      Spreadsheet::ParseExcel::Cell 0.65
+      Spreadsheet::ParseExcel::Dump 0.65
+      Spreadsheet::ParseExcel::FmtDefault 0.65
+      Spreadsheet::ParseExcel::FmtJapan 0.65
+      Spreadsheet::ParseExcel::FmtJapan2 0.65
+      Spreadsheet::ParseExcel::FmtUnicode 0.65
+      Spreadsheet::ParseExcel::Font 0.65
+      Spreadsheet::ParseExcel::Format 0.65
+      Spreadsheet::ParseExcel::SaveParser 0.65
+      Spreadsheet::ParseExcel::SaveParser::Workbook 0.65
+      Spreadsheet::ParseExcel::SaveParser::Worksheet 0.65
+      Spreadsheet::ParseExcel::Utility 0.65
+      Spreadsheet::ParseExcel::Workbook 0.65
+      Spreadsheet::ParseExcel::Worksheet 0.65
+    requirements:
+      Crypt::RC4 0
+      Digest::Perl::MD5 0
+      ExtUtils::MakeMaker 0
+      IO::File 0
+      IO::Scalar 0
+      OLE::Storage_Lite 0.19
+      Scalar::Util 0
+  Spreadsheet-ParseXLSX-0.27
+    pathname: D/DO/DOY/Spreadsheet-ParseXLSX-0.27.tar.gz
+    provides:
+      Spreadsheet::ParseXLSX 0.27
+      Spreadsheet::ParseXLSX::Decryptor 0.27
+      Spreadsheet::ParseXLSX::Decryptor::Agile 0.27
+      Spreadsheet::ParseXLSX::Decryptor::Standard 0.27
+    requirements:
+      Archive::Zip 0
+      Crypt::Mode::CBC 0
+      Crypt::Mode::ECB 0
+      Digest::SHA 0
+      Encode 0
+      ExtUtils::MakeMaker 0
+      File::Temp 0
+      Graphics::ColorUtils 0
+      MIME::Base64 0
+      OLE::Storage_Lite 0
+      Scalar::Util 0
+      Spreadsheet::ParseExcel 0.61
+      XML::Twig 0
+      base 0
+      perl 5.010
+      strict 0
+      warnings 0
+  String-Util-1.32
+    pathname: B/BA/BAKERSCOT/String-Util-1.32.tar.gz
+    provides:
+      String::Util 1.32
+    requirements:
+      Module::Build::Tiny 0.034
+      perl 5.010
+  Task-Weaken-1.06
+    pathname: E/ET/ETHER/Task-Weaken-1.06.tar.gz
+    provides:
+      Task::Weaken 1.06
+    requirements:
+      Config 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      Scalar::Util 1.14
+      perl 5.006
+      strict 0
+  Test-Fatal-0.016
+    pathname: R/RJ/RJBS/Test-Fatal-0.016.tar.gz
+    provides:
+      Test::Fatal 0.016
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      Test::Builder 0
+      Try::Tiny 0.07
+      strict 0
+      warnings 0
+  TimeDate-2.33
+    pathname: A/AT/ATOOMIC/TimeDate-2.33.tar.gz
+    provides:
+      Date::Format 2.24
+      Date::Format::Generic 2.24
+      Date::Language 1.10
+      Date::Language::Afar 0.99
+      Date::Language::Amharic 1.00
+      Date::Language::Austrian 1.01
+      Date::Language::Brazilian 1.01
+      Date::Language::Bulgarian 1.01
+      Date::Language::Chinese 1.00
+      Date::Language::Chinese_GB 1.01
+      Date::Language::Czech 1.01
+      Date::Language::Danish 1.01
+      Date::Language::Dutch 1.02
+      Date::Language::English 1.01
+      Date::Language::Finnish 1.01
+      Date::Language::French 1.04
+      Date::Language::Gedeo 0.99
+      Date::Language::German 1.02
+      Date::Language::Greek 1.00
+      Date::Language::Hungarian 1.01
+      Date::Language::Icelandic 1.01
+      Date::Language::Italian 1.01
+      Date::Language::Norwegian 1.01
+      Date::Language::Occitan 1.04
+      Date::Language::Oromo 0.99
+      Date::Language::Romanian 1.01
+      Date::Language::Russian 1.01
+      Date::Language::Russian_cp1251 1.01
+      Date::Language::Russian_koi8r 1.01
+      Date::Language::Sidama 0.99
+      Date::Language::Somali 0.99
+      Date::Language::Spanish 1.00
+      Date::Language::Swedish 1.01
+      Date::Language::Tigrinya 1.00
+      Date::Language::TigrinyaEritrean 1.00
+      Date::Language::TigrinyaEthiopian 1.00
+      Date::Language::Turkish 1.0
+      Date::Parse 2.33
+      Time::Zone 2.24
+      TimeDate 1.21
+    requirements:
+      ExtUtils::MakeMaker 0
+  Try-Tiny-0.31
+    pathname: E/ET/ETHER/Try-Tiny-0.31.tar.gz
+    provides:
+      Try::Tiny 0.31
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      constant 0
+      perl 5.006
+      strict 0
+      warnings 0
+  URI-5.10
+    pathname: O/OA/OALDERS/URI-5.10.tar.gz
+    provides:
+      URI 5.10
+      URI::Escape 5.10
+      URI::Heuristic 5.10
+      URI::IRI 5.10
+      URI::QueryParam 5.10
+      URI::Split 5.10
+      URI::URL 5.10
+      URI::WithBase 5.10
+      URI::data 5.10
+      URI::file 5.10
+      URI::file::Base 5.10
+      URI::file::FAT 5.10
+      URI::file::Mac 5.10
+      URI::file::OS2 5.10
+      URI::file::QNX 5.10
+      URI::file::Unix 5.10
+      URI::file::Win32 5.10
+      URI::ftp 5.10
+      URI::gopher 5.10
+      URI::http 5.10
+      URI::https 5.10
+      URI::ldap 5.10
+      URI::ldapi 5.10
+      URI::ldaps 5.10
+      URI::mailto 5.10
+      URI::mms 5.10
+      URI::news 5.10
+      URI::nntp 5.10
+      URI::nntps 5.10
+      URI::pop 5.10
+      URI::rlogin 5.10
+      URI::rsync 5.10
+      URI::rtsp 5.10
+      URI::rtspu 5.10
+      URI::sftp 5.10
+      URI::sip 5.10
+      URI::sips 5.10
+      URI::snews 5.10
+      URI::ssh 5.10
+      URI::telnet 5.10
+      URI::tn3270 5.10
+      URI::urn 5.10
+      URI::urn::isbn 5.10
+      URI::urn::oid 5.10
+    requirements:
+      Carp 0
+      Cwd 0
+      Data::Dumper 0
+      Encode 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      MIME::Base64 2
+      Net::Domain 0
+      Scalar::Util 0
+      constant 0
+      integer 0
+      overload 0
+      parent 0
+      perl 5.008001
+      strict 0
+      utf8 0
+      warnings 0
+  WWW-Mechanize-2.07
+    pathname: O/OA/OALDERS/WWW-Mechanize-2.07.tar.gz
+    provides:
+      WWW::Mechanize 2.07
+      WWW::Mechanize::Image 2.07
+      WWW::Mechanize::Link 2.07
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Getopt::Long 0
+      HTML::Form 1.00
+      HTML::HeadParser 0
+      HTML::TokeParser 0
+      HTML::TreeBuilder 5
+      HTTP::Cookies 0
+      HTTP::Request 1.30
+      HTTP::Request::Common 0
+      LWP::UserAgent 6.45
+      Pod::Usage 0
+      Scalar::Util 1.14
+      Tie::RefHash 0
+      URI::URL 0
+      URI::file 0
+      base 0
+      perl 5.006
+      strict 0
+      warnings 0
+  WWW-RobotRules-6.02
+    pathname: G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+    provides:
+      WWW::RobotRules 6.02
+      WWW::RobotRules::AnyDBM_File 6.00
+      WWW::RobotRules::InCore 6.02
+    requirements:
+      AnyDBM_File 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      URI 1.10
+      perl 5.008001
+  Want-0.29
+    pathname: R/RO/ROBIN/Want-0.29.tar.gz
+    provides:
+      Want 0.29
+    requirements:
+      ExtUtils::MakeMaker 0
+  XML-Parser-2.46
+    pathname: T/TO/TODDR/XML-Parser-2.46.tar.gz
+    provides:
+      XML::Parser 2.46
+      XML::Parser::Expat 2.46
+      XML::Parser::Style::Debug undef
+      XML::Parser::Style::Objects undef
+      XML::Parser::Style::Stream undef
+      XML::Parser::Style::Subs undef
+      XML::Parser::Style::Tree undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      LWP::UserAgent 0
+      perl 5.004050
+  XML-Twig-3.52
+    pathname: M/MI/MIROD/XML-Twig-3.52.tar.gz
+    provides:
+      XML::Twig 3.52
+      XML::Twig::Elt 3.52
+      XML::Twig::Entity 3.52
+      XML::Twig::Entity_list 3.52
+      XML::Twig::Notation 3.52
+      XML::Twig::Notation_list 3.52
+      XML::Twig::XPath 0.02
+      XML::Twig::XPath::Attribute 0.02
+      XML::Twig::XPath::Elt 0.02
+      XML::Twig::XPath::Namespace 0.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      XML::Parser 2.23
+  libwww-perl-6.64
+    pathname: O/OA/OALDERS/libwww-perl-6.64.tar.gz
+    provides:
+      LWP 6.64
+      LWP::Authen::Basic 6.64
+      LWP::Authen::Digest 6.64
+      LWP::Authen::Ntlm 6.64
+      LWP::ConnCache 6.64
+      LWP::Debug 6.64
+      LWP::Debug::TraceHTTP 6.64
+      LWP::DebugFile 6.64
+      LWP::MemberMixin 6.64
+      LWP::Protocol 6.64
+      LWP::Protocol::cpan 6.64
+      LWP::Protocol::data 6.64
+      LWP::Protocol::file 6.64
+      LWP::Protocol::ftp 6.64
+      LWP::Protocol::gopher 6.64
+      LWP::Protocol::http 6.64
+      LWP::Protocol::loopback 6.64
+      LWP::Protocol::mailto 6.64
+      LWP::Protocol::nntp 6.64
+      LWP::Protocol::nogo 6.64
+      LWP::RobotUA 6.64
+      LWP::Simple 6.64
+      LWP::UserAgent 6.64
+      libwww::perl undef
+    requirements:
+      CPAN::Meta::Requirements 2.120620
+      Digest::MD5 0
+      Encode 2.12
+      Encode::Locale 0
+      ExtUtils::MakeMaker 0
+      File::Copy 0
+      File::Listing 6
+      File::Temp 0
+      Getopt::Long 0
+      HTML::Entities 0
+      HTML::HeadParser 0
+      HTTP::Cookies 6
+      HTTP::Date 6
+      HTTP::Negotiate 6
+      HTTP::Request 6
+      HTTP::Request::Common 6
+      HTTP::Response 6
+      HTTP::Status 6.18
+      IO::Select 0
+      IO::Socket 0
+      LWP::MediaTypes 6
+      MIME::Base64 2.1
+      Module::Metadata 0
+      Net::FTP 2.58
+      Net::HTTP 6.18
+      Scalar::Util 0
+      Try::Tiny 0
+      URI 1.10
+      URI::Escape 0
+      WWW::RobotRules 6
+      parent 0.217
+      perl 5.008001
+      strict 0
+      warnings 0
