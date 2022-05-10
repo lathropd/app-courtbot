@@ -12,7 +12,7 @@ use Spreadsheet::ParseXLSX;
 use DBD::SQLite;
 use DBI qw(:sql_types);
 use POSIX;
-use Email::Send::SMTP::Gmail;
+use Email::Send::SMTPb::Gmail;
 
 
 my $dbh = DBI->connect("dbi:SQLite:filings.sqlite","","");
@@ -226,12 +226,12 @@ say STDERR $mech->text;
 
 unless ($mech->content =~ /Login Error/) {
   say STDERR "login success";
-  sleep 2;   
+  sleep rand(2);   
   try {
     for my $case (@case_list) {
       try {
         say $case;
-        sleep 1 + rand(10);        
+        sleep 1 + rand(5);        
         # say STDERR "# open main page";
         $mech->get("https://www.iowacourts.state.ia.us/");
         $mech->get("https://www.iowacourts.state.ia.us/ESAWebApp/DefaultFrame");
@@ -257,13 +257,13 @@ unless ($mech->content =~ /Login Error/) {
           $mech->field("caseid3", $3);            # case type
           $mech->field("caseid4", $4);            # case number (including CR/CV/etc)
           $mech->field("searchtype", "C");        # set as a case# search
-          sleep 2;
+          sleep rand(2);
           $mech->submit;
           try { 
             $mech->update_html( $mech->content(charset => "ISO-8859-1") );
           } catch ($e) {
             say $e;
-            sleep 60;
+            sleep rand(60);
             next;
           }
           # click into the case
@@ -295,7 +295,7 @@ unless ($mech->content =~ /Login Error/) {
             $te->rows;
           } catch ($e) {
              say STDERR "Problem etting case details:\n $e";
-             sleep 60;
+             sleep rand(60);
              next;
           }
           my @rows = $te->rows;
@@ -340,14 +340,14 @@ unless ($mech->content =~ /Login Error/) {
           }
       } catch ($e) {
         say STDERR "problem with a download:\n $e";
-        sleep 60; 
+        sleep rand(60); 
       }     
     }
 
     $dbh->disconnect;
   } catch ( $e) {
     say STDERR "error: $e";
-    sleep 60;
+    sleep rand(60);
   }
 
  
