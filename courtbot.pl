@@ -12,7 +12,6 @@ use Spreadsheet::ParseXLSX;
 use DBD::SQLite;
 use DBI qw(:sql_types);
 use POSIX;
-use Email::Send::SMTPb::Gmail;
 
 
 my $dbh = DBI->connect("dbi:SQLite:filings.sqlite","","");
