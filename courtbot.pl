@@ -235,7 +235,7 @@ unless ($mech->content =~ /Login Error/) {
         $mech->get("https://www.iowacourts.state.ia.us/");
         $mech->get("https://www.iowacourts.state.ia.us/ESAWebApp/DefaultFrame");
         $mech->update_html( $mech->content(charset => "ISO-8859-1") );
-        $mech->follow_link(text=> "Start A Case Search Here!");
+        $mech->follow_link(text=> "Click Here to Search");
         $mech->update_html( $mech->content(charset => "ISO-8859-1") );
         $mech->follow_link( name => "main" );
         $mech->update_html( $mech->content(charset => "ISO-8859-1") );
