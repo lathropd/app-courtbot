@@ -55,7 +55,7 @@ $mech->get("https://gannett-my.sharepoint.com/:x:/p/lgrundme/EZSlomu-naNFh5RcH6k
 
 # open it for reading
 my $xlsx_parser = Spreadsheet::ParseXLSX->new;
-my $worksheet = $xlsx_parser->parse( "tmp.xlsx" )->worksheet("Sheet1");
+my $worksheet = $xlsx_parser->parse( "tmp.xlsx" )->worksheet("Active Cases");
 my ( $row_min, $row_max ) = $worksheet->row_range;
 my ( $col_min, $col_max ) = $worksheet->col_range;
 
