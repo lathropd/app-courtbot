@@ -293,7 +293,7 @@ unless ($mech->content =~ /Login Error/) {
             # grab the table rows
             $te->rows;
           } catch ($e) {
-             say STDERR "Problem etting case details:\n $e";
+             say STDERR "Problem getting case details:\n $e";
              sleep rand(60);
              next;
           }
