@@ -13,7 +13,7 @@ try {
                 metroia@registermedia.com,
                 pjoens@registermedia.com, 
                 dlathrop@registermedia.com,
-                asahouri@registermedia.com,
+                nelhajj@registermedia.com,
                 ccrowder@registermedia.com';
 
   my $message = "$header\n$rows\n</table>";
