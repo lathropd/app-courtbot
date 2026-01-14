@@ -14,6 +14,7 @@ try {
                 pjoens@registermedia.com, 
                 dlathrop@registermedia.com,
                 nelhajj@registermedia.com,
+                kwerner@gannett.com,
                 ccrowder@registermedia.com';
 
   my $message = "$header\n$rows\n</table>";
