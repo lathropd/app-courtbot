@@ -17,11 +17,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - uses: shogo82148/actions-setup-perl@v1
+      - uses: actions/setup-python@v5
         with:
-          perl-version: '5.34'
-      - run: carton install
-      - run: bash run-perl-scrape.sh
+          python-version: '3.x'
+      - run: bash run-python-scrape.sh
         env: 
           COURTBOT_USER: ${{ secrets.COURTBOT_USER }}
           COURTBOT_PASSWORD: ${{ secrets.COURTBOT_PASSWORD }}
